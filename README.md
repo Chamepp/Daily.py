@@ -1,3 +1,3 @@
-# selkashop
+# Token Manager
 
-Selka Cart Managing System .
+Easily manage your Github tokens.
