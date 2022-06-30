@@ -1,3 +1,3 @@
-# Token Manager
+# Daily.py
 
-Easily manage your Github tokens.
+Daily Use Python Scripts
