@@ -21,11 +21,7 @@ python3 [scriptname].py
 
 Contributors names and contact info
 
-- Ashkan Ebtekari  
-- 
-- ashkanebtekari@gmail.com
-
-1. Ashkan Ebtekari
+* Ashkan Ebtekari
      - [@Chamepp](https://github.com/Chamepp)
        - ashkanebtekari@gmail.com
 
