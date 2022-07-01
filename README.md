@@ -1,6 +1,11 @@
 ![Header](banner.png)
 # Daily.py
-
+<p align="center">
+  <img src="https://img.shields.io/aur/last-modified/google-chrome" />
+  <img src="https://img.shields.io/amo/stars/dustman" />
+  <img src="https://img.shields.io/github/stars/Chamepp/Daily.py?style=social" />
+  <img src="https://img.shields.io/amo/users/dustman" />
+</p>
 Daily Use Python Scripts
 
 
