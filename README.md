@@ -8,20 +8,18 @@ Daily Use Python Scripts
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Install Any Prerequisites, Libraries, OS version Needed Before Executing Scripts.
+* Some Scripts Need Tokens
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Enter The Directory
+* Install Dependencies
+* Run The Scripts By The Below Command
 ```
-code blocks for commands
+cd Daily.py
+pip3 install [dependencyname]
+python3 [scriptname].py
 ```
 
 ## Help
