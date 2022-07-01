@@ -5,7 +5,9 @@
   <img src="https://img.shields.io/github/stars/Chamepp/Daily.py?style=social" />
   <img src="https://img.shields.io/amo/users/dustman" />
 </p>
+
 # Daily.py
+
 Daily Use Python Scripts
 
 
