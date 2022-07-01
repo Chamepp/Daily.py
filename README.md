@@ -6,53 +6,28 @@ Daily Use Python Scripts
 
 ## Getting Started
 
-### Dependencies
-
-* Install Any Prerequisites, Libraries, OS version Needed Before Executing Scripts.
-* Some Scripts Need Tokens
-
-### Executing program
-
+* Clone The Repository
 * Enter The Directory
 * Install Dependencies
 * Run The Scripts By The Below Command
 ```
+git clone https://github.com/Chamepp/Daily.py.git
 cd Daily.py
 pip3 install [dependencyname]
 python3 [scriptname].py
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
 ```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. Ashkan Ebtekari  
+ex. [@Chamepp](https://github.com/Chamepp)
 
-## Version History
+## Contribution
+Contributions Are Welcome.
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* Open pull request with improvements <br>
+* Discuss ideas in issues <br>
+* Spread the word <br>
+* Reach out with any feedback
