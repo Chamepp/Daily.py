@@ -6,96 +6,58 @@
   <img src="https://img.shields.io/amo/users/dustman" />
 </p>
 
+# Introduction
+Daily.py is a repository that provides a collection of ready-to-use Python scripts for automating common daily tasks. Whether you're a developer, data analyst, or someone looking to simplify your daily routine, Daily.py offers a range of scripts to automate repetitive processes and save you time and effort.
 
-# Daily.py Documentation
+# Features
+The Daily.py repository offers the following features:
 
-## Introduction
-Welcome to the documentation for Daily.py! This repository provides a simple and lightweight Python package that helps you manage daily tasks and routines efficiently. With Daily.py, you can create, update, and track your daily tasks effortlessly.
+1. **Wide Range of Automation Scripts:** Daily.py includes a diverse set of Python scripts covering various domains and tasks, such as file management, data manipulation, web scraping, email automation, and more.
 
-## Installation
-To use Daily.py in your Python project, you need to install it first. Follow the steps below to install the package:
+2. **Easy to Use:** Each script is designed to be easily executed without requiring extensive knowledge of Python programming. The scripts are well-documented and come with clear instructions for usage.
 
-1. Open a terminal or command prompt.
-2. Ensure that you have Python 3 installed on your system.
-3. Run the following command to install Daily.py using pip:
-   ```
-   pip install daily.py
-   ```
+3. **Modular Structure:** The repository follows a modular structure, allowing you to select and use individual scripts based on your specific needs. You can cherry-pick the scripts you want to use without unnecessary dependencies.
 
-## Getting Started
-Once you have installed Daily.py, you can import it into your Python code using the following import statement:
+4. **Customization:** The scripts in Daily.py are built with customization in mind. They often include parameters or configuration options that can be easily modified to suit your specific requirements.
 
-```python
-from daily import Daily
+# Getting Started
+To get started with Daily.py, follow these steps:
+
+**1. Clone the Repository:** Start by cloning the Daily.py repository from GitHub using the following command:
+
+```bash
+git clone https://github.com/Chamepp/Daily.py.git
 ```
+**2. Navigate to the Repository:** Once the repository is cloned, navigate to the Daily.py directory:
 
-To start using Daily.py, you need to create an instance of the `Daily` class:
-
-```python
-daily = Daily()
+```bash
+cd Daily.py
 ```
-
-## Basic Usage
-
-### Creating a Task
-You can create a task using the `create_task` method. The method takes two parameters: the task name and an optional description. It returns the unique ID assigned to the task.
-
-```python
-task_id = daily.create_task("Finish report", "Write the final report for the project")
+**3. Install Dependencies:** Some scripts may have external dependencies. Check the script's documentation to identify any required packages. Install the necessary dependencies using pip:
 ```
-
-### Updating a Task
-You can update a task by providing its ID and the new task details using the `update_task` method. The method takes three parameters: the task ID, the new task name, and an optional new description.
-
-```python
-daily.update_task(task_id, "Submit report", "Submit the final report to the supervisor")
+pip install -r requirements.txt
 ```
+**4. Choose a Script:** Browse through the repository and select the Python script that suits your automation needs. Each script is located in a separate directory with its own documentation.
 
-### Marking a Task as Completed
-You can mark a task as completed using the `complete_task` method. It takes the task ID as a parameter.
+**5. Read the Documentation:** Open the chosen script's documentation file (usually named README.md) to understand its purpose, features, and usage instructions.
 
+**6. Configure and Run the Script:** Follow the instructions provided in the documentation to configure any necessary parameters or options. Execute the script using Python:
 ```python
-daily.complete_task(task_id)
+python script_name.py
 ```
+**7. Enjoy Automation:** Sit back and let the script handle the repetitive task for you. Save time and effort by automating your daily processes with ease.
 
-### Deleting a Task
-You can delete a task using the `delete_task` method. It takes the task ID as a parameter.
+# Contributing
+Contributions to the Daily.py repository are welcome! If you have a script that you think would be valuable for automating daily tasks, feel free to submit a pull request. Make sure your script follows the repository's guidelines and includes thorough documentation.
 
-```python
-daily.delete_task(task_id)
-```
+# Support and Issues
+If you encounter any issues while using Daily.py or have any questions, you can:
 
-### Listing All Tasks
-You can retrieve a list of all tasks using the `get_all_tasks` method. It returns a list of dictionaries, where each dictionary represents a task with its ID, name, description, and status (completed or not).
+Open an issue on the GitHub repository: https://github.com/Chamepp/Daily.py/issues
+Please provide detailed information about the problem you're facing, including the steps to reproduce it, error messages (if any), and the specific script you're using.
 
-```python
-tasks = daily.get_all_tasks()
-for task in tasks:
-    print(task)
-```
+# License
+The Daily.py repository is licensed under the MIT License, which allows you to use, modify, and distribute the code. However, it comes with no warranties or guarantees. Refer to the LICENSE file in the repository for more details.
 
-## Advanced Features
-
-### Custom Task Status
-You can define custom task statuses by using the `set_task_status` method. It allows you to set the status for a particular task ID.
-
-```python
-daily.set_task_status(task_id, "In Progress")
-```
-
-### Task Prioritization
-You can assign priorities to tasks using the `set_task_priority` method. It takes the task ID and priority level as parameters.
-
-```python
-daily.set_task_priority(task_id, 2)
-```
-
-### Task Reminders
-You can set reminders for tasks using the `set_task_reminder` method. It takes the task ID and a reminder time in the format `HH:MM` (24-hour format) as parameters.
-
-```python
-daily.set_task_reminder(task_id, "09:00")
-```
-
-## Conclusion
-Congratulations! You have learned the basics of using Daily.py to manage your daily tasks efficiently. Feel free to explore the various methods and features provided by the package to customize your task management system. For further details, refer to the source code and the official Daily.py repository on [GitHub](https://github.com/Chamepp/Daily.py).
+# Conclusion
+Daily.py provides a valuable collection of ready-to-use Python scripts for automating daily tasks. Whether you're looking to streamline your workflow, simplify data manipulation,
