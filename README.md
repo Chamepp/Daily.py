@@ -53,8 +53,8 @@ Contributions to the Daily.py repository are welcome! If you have a script that 
 # Support and Issues
 If you encounter any issues while using Daily.py or have any questions, you can:
 
-Open an issue on the GitHub repository: https://github.com/Chamepp/Daily.py/issues
-Please provide detailed information about the problem you're facing, including the steps to reproduce it, error messages (if any), and the specific script you're using.
+- Open an issue on the GitHub repository: https://github.com/Chamepp/Daily.py/issues
+- Please provide detailed information about the problem you're facing, including the steps to reproduce it, error messages (if any), and the specific script you're using.
 
 # License
 The Daily.py repository is licensed under the MIT License, which allows you to use, modify, and distribute the code. However, it comes with no warranties or guarantees. Refer to the LICENSE file in the repository for more details.
