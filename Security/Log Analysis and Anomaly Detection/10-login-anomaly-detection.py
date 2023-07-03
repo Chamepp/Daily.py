@@ -26,5 +26,19 @@ def is_login_anomaly(log_entry):
 
 def is_normal_ip_range(ip_address):
     # Replace this with your own logic to determine the normal IP range
-    normal_ip_range = ["192.168.
+    normal_ip_range = ["192.168.0.0", "192.168.0.255"]  # Example IP range
+    
+    # Check if the IP address falls within the normal range
+    if ip_address in normal_ip_range:
+        return True
+
+    return False
+
+# Example usage
+log_entry = "User login from IP address 192.168.1.100 at 22:30"
+
+if is_login_anomaly(log_entry):
+    print("This login is considered an anomaly.")
+else:
+    print("This login is normal.")
 

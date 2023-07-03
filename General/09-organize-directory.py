@@ -17,7 +17,7 @@ picture = ['.png', '.jpg', 'jpeg', '.bmp']
 music = ['.mp3', '.wav']
 compressed = ['.zip', '.rar', '.tar', '.gz', '.bz2', '.xz']
 video = ['.3gp', '.mov', '.mp4', '.mkv', '.srt', '.avi']
-web = ['.html', .'.css', '.js']
+web = ['.html', '.css', '.js']
 source = ['.py', '.c', '.cpp', '.java',]
 
 # Directories

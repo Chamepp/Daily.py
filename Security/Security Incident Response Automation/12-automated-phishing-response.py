@@ -10,8 +10,12 @@ def is_phishing_email(email_subject):
 
 def send_response(email_sender):
     # Send an automated response to the sender of the phishing email
-    response = "Dear {},\n\nThank you for your email. We appreciate your vigilance in reporting potential phishing emails. Our security team will investigate the matter accordingly.\n\nBest 
-regards,\nYour Organization".format(email_sender)
+    response = """Dear {},
+    
+Thank you for your email. We appreciate your vigilance in reporting potential phishing emails. Our security team will investigate the matter accordingly.
+
+Best regards,
+Your Organization""".format(email_sender)
     # Code to send the response email goes here (implementation depends on your email sending method)
 
 # Example usage
