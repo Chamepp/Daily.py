@@ -9,6 +9,8 @@
 # Introduction
 Daily.py is a repository that provides a collection of ready-to-use Python scripts for automating common daily tasks. Whether you're a developer, data analyst, or someone looking to simplify your daily routine, Daily.py offers a range of scripts to automate repetitive processes and save you time and effort.
 
+> :star: this repo to support our efforts!
+
 # Features
 The Daily.py repository offers the following features:
 
